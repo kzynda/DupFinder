@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DupFinder", "DupFinder\DupFinder.csproj", "{BD787D3F-3FEC-4D34-8C6F-E2CF8434CF3E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonFiles", "CommonFiles", "{CA8F051C-EBC6-4D9A-B537-9D3A2FF19A8C}"
+	ProjectSection(SolutionItems) = preProject
+		license = license
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
