@@ -1,6 +1,6 @@
 ﻿namespace DupFinder.Core;
 
-public class Class1
+public class Class1 : IInterface1
 {
-	public static int TestFunc() => 1;
+	public int TestFunc() => 1;
 }
